@@ -3,12 +3,12 @@
 | Step | Description | Status |
 |------|-------------|--------|
 | 1 | Project init + git init + .gitignore | Done |
-| 2 | Environment setup (.env.local) | Pending |
-| 3 | Supabase table setup | Pending |
-| 4 | UI: input + save button | Pending |
-| 5 | Save to Supabase | Pending |
-| 6 | List messages (reverse chronological) | Pending |
-| 7 | Delete functionality | Pending |
+| 2 | Environment setup (.env.local) | Done |
+| 3 | Supabase table setup | Done |
+| 4 | UI: input + save button | Done |
+| 5 | Save to Supabase | Done |
+| 6 | List messages (reverse chronological) | Done |
+| 7 | Delete functionality | Done |
 | 8 | Styling/cleanup | Pending |
 | 9 | Push to GitHub | Pending |
 | 10 | Deploy to Vercel | Pending |
