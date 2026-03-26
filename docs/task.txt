@@ -1,0 +1,13 @@
+A feladat:
+Készíts egy egyszerű, publikusan is elérhető webalkalmazást az alábbi stack használatával:
+- Programozási nyelv: Tetszőleges
+- Hosting: Vercel (ingyenes verzió)
+- Adatbázis: Supabase (ingyenes verzió, Vercelből a Storage menüponton keresztül elérhető)
+- Verziókezelés: GitHub repó
+
+Funkcionális követelmény:
+Az alkalmazás legyen egy egyszerű "Üzenőfal":
+- A felhasználó beírhat egy szöveget egy mezőbe.
+- A "Mentés" gombra kattintva az adat kerüljön be a Supabase adatbázisba.
+- Az alkalmazás listázza ki az eddig elmentett elemeket az adatbázisból, fordított időrendben.
+- Az egyes bejegyzések legyenek egy gombnyomással törölhetőek.

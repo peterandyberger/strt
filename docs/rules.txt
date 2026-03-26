@@ -1,0 +1,13 @@
+Project Rules:
+
+1. No credentials or secrets in code. Everything via .env (.env must be in .gitignore)
+2. Always use environment variables for Supabase URL and anon key
+3. Use TypeScript strict mode
+4. Keep it simple. No over-engineering, minimal dependencies
+5. Single-page layout, no routing needed
+6. Error handling on all Supabase operations (show user-friendly error messages)
+7. Commit after each completed feature with a meaningful commit message
+8. Hungarian UI text (the app is called "Uzenofal")
+9. Clean, readable code with consistent formatting
+10. Do not install unnecessary packages. Use only what is needed
+11. Update status.md after completing each step from development.txt

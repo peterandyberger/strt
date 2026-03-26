@@ -1,0 +1,13 @@
+Development Plan:
+
+Step 1: Project init + git init + .gitignore
+Step 2: Environment setup (.env.local)
+Step 3: Supabase table setup
+Step 4: UI: input + save button
+Step 5: Save to Supabase
+Step 6: List messages (reverse chronological)
+Step 7: Delete functionality
+Step 8: Styling/cleanup
+Step 9: Push to GitHub
+Step 10: Deploy to Vercel
+Step 11: Final test on live URL
