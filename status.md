@@ -9,7 +9,7 @@
 | 5 | Save to Supabase | Done |
 | 6 | List messages (reverse chronological) | Done |
 | 7 | Delete functionality | Done |
-| 8 | Styling/cleanup | Pending |
+| 8 | Styling/cleanup | Done |
 | 9 | Push to GitHub | Pending |
 | 10 | Deploy to Vercel | Pending |
 | 11 | Final test on live URL | Pending |

@@ -259,3 +259,40 @@ Set up testing infrastructure and wrote 11 tests:
 11. Displays delete button for each message
 
 **Result: 11/11 tests pass.**
+
+---
+
+**Peter:**
+
+It looks good, commit and push
+
+---
+
+**Claude:**
+
+Committed (`6a147c6`) and pushed — test suite with Jest and React Testing Library.
+
+---
+
+**Peter:**
+
+I tested it and it looked all good. We should proceed with Step 8 (Styling/cleanup).
+
+---
+
+**Claude:**
+
+Step 8 — Styling/cleanup:
+
+- Removed unused boilerplate SVGs from `public/` (file.svg, globe.svg, next.svg, vercel.svg, window.svg)
+- Cleaned up `globals.css` — lighter slate background (#f8fafc), removed dark mode (not needed), removed Arial fallback (using Geist font)
+- Polished the page UI:
+  - Added subtitle under the header ("Hagyj üzenetet az alábbi mezőben")
+  - Rounded corners increased to `rounded-xl` for a softer look
+  - White card backgrounds with subtle shadows on message cards and input
+  - Better error display — styled as a red alert box instead of plain text
+  - Improved text colors using Tailwind slate palette for consistency
+  - Added `break-words` and `min-w-0` for long message content overflow handling
+  - Subtle active state on the save button
+
+Build passes, 11/11 tests still pass. Step 8: Done.
