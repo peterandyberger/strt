@@ -212,3 +212,50 @@ Fixed all Hungarian accent marks across `src/app/page.tsx` and `src/app/layout.t
 - Nem sikerült menteni az üzenetet. (save error)
 - Nem sikerült törölni az üzenetet. (delete error)
 - Layout metadata: title="Üzenőfal", description="Egyszerű üzenőfal alkalmazás"
+
+---
+
+**Peter:**
+
+yes this is again a good time to do the commit and push
+
+---
+
+**Claude:**
+
+Committed (`b83ddb3`) and pushed — Steps 2-7: Supabase integration and full message wall UI.
+
+---
+
+**Peter:**
+
+I tested it and it looked all good. We should add tests too to make sure it all works as it is expected
+
+---
+
+**Claude:**
+
+Set up testing infrastructure and wrote 11 tests:
+
+**Installed:** jest, @testing-library/react, @testing-library/jest-dom, @testing-library/user-event, jest-environment-jsdom, ts-jest, ts-node, @types/jest
+
+**Created files:**
+- `jest.config.ts` — Jest config with TypeScript, jsdom, path aliases
+- `jest.setup.ts` — imports @testing-library/jest-dom
+- `src/__mocks__/supabase.ts` — mock Supabase client with chainable methods
+- `src/__tests__/page.test.tsx` — 11 tests covering all functionality
+
+**Tests cover:**
+1. Renders title and input elements
+2. Loads and displays messages on mount
+3. Shows empty state when no messages
+4. Disables save button when input is empty
+5. Enables save button when input has text
+6. Saves a new message and refreshes the list
+7. Shows error when save fails
+8. Deletes a message and refreshes the list
+9. Shows error when delete fails
+10. Shows error when fetching messages fails
+11. Displays delete button for each message
+
+**Result: 11/11 tests pass.**
